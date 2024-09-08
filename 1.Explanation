@@ -1,0 +1,9 @@
+In web development, particularly when working with APIs (Application Programming Interfaces), two common HTTP methods are POST and GET. Both are used to send and retrieve data from a web server, but they have distinct purposes and behaviors.
+
+GET Method
+Purpose: The GET method is used to retrieve data from a server. When a client sends a GET request, it asks the server to send back some data.
+Characteristics:
+Data sent with a GET request is appended to the URL as query parameters.
+It's considered safe and idempotent (meaning repeated requests have the same effect as a single request).
+GET requests can be cached, and they are also bookmarkable.
+Common Use Cases: Fetching data, such as retrieving user profiles, search results, etc.
