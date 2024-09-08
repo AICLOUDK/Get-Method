@@ -1,0 +1,16 @@
+GET Request using fetch in JavaScript
+
+// GET request to retrieve data
+fetch('https://api.example.com/data')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok ' + response.statusText);
+    }
+    return response.json();
+  })
+  .then(data => {
+    console.log('Data retrieved:', data);
+  })
+  .catch((error) => {
+    console.error('There has been a problem with your fetch operation:', error);
+  });
