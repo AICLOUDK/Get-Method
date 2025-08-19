@@ -13,8 +13,7 @@ No Data Change:
 GET requests are read-only; they do not modify data on the server. They are safe and idempotent (repeating the request has the same effect as doing it once).
 
 Parameters (Optional):
-GET requests can include parameters in the URL (called query strings), which specify filters or options for the data requested. For example:
-https://example.com/api/books?author=Harper+Lee
+GET requests can include parameters in the URL (called query strings), which specify filters or options for the data requested. 
 
 Key Characteristics:
 Used for data retrieval
